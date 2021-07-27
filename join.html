@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="5; URL=https://rightgames.github.io/rg/join.html">
+    <link rel="stylesheet" href="stylejoin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+<title>Join server</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class=back-image>
+      <p class=back-text>Нажмите на кнопку что бы присоединиться к игре</p>
+      <p class=back-text1>"URL:steam protocol"</p>
+      <span class="spinner"></span>​
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var protoUrl = "steam:\/\/connect/95.181.153.42:27015";
+        if (false) {
+          var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
+          var iframeEl = document.createElement('iframe');
+          iframeContEl.appendChild(iframeEl);
+          var pageHidden = false;
+          window.addEventListener('pagehide', function () {
+            pageHidden = true;
+          }, false);
+          window.addEventListener('blur', function () {
+            pageHidden = true;
+          }, false);
+          if (iframeEl !== null) {
+            iframeEl.src = protoUrl;
+          }
+          !false && setTimeout(function() {
+            if (!pageHidden) {
+              window.location = protoUrl;
+            }
+          }, 2000);
+        }
+        else if (protoUrl) {
+          setTimeout(function() {
+            window.location = protoUrl;
+          }, 100);
+        }
+        
+        
+    </script>
+  </body>
+</html>
